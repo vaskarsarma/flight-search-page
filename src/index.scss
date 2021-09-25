@@ -1,0 +1,18 @@
+//fonts
+$font_0: source-code-pro;
+$font_1: Menlo;
+$font_2: Monaco;
+$font_3: Consolas;
+$font_4: Courier New;
+$font_5: monospace;
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+code {
+	font-family: $font_0, $font_1, $font_2, $font_3, $font_4, $font_5;
+}

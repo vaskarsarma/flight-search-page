@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlightInfo /> <FlightInfo /> Rendered Correctly 1`] = `
+<div
+  className="Cart-Container"
+>
+  <Card
+    bg="warning"
+    body={false}
+    border="danger"
+  >
+    <section
+      className="Flight-info"
+    >
+      <FlightLogo
+        alttext="Icon"
+        imagePath="nonstop.png"
+        size="Flight-Icon"
+      />
+      <DetailLabel
+        mainText="AIRLINE"
+        subText="Emirates"
+      />
+      <DetailLabel
+        mainText="FROM"
+        subText="Dubai (DXB)"
+      />
+      <DetailLabel
+        mainText="TO"
+        subText="Mumbai (BOM)"
+      />
+      <DetailLabel
+        mainText="DEPART BY"
+        subText="2021/11/01 5:00"
+      />
+      <DetailLabel
+        mainText="ARRIVED AT"
+        subText="2021/11/01 6:00"
+      />
+      <DetailLabel
+        mainText="PRICE"
+        subText="$3525"
+      />
+      <Button
+        active={false}
+        disabled={true}
+        id={1}
+        onClick={1}
+        variant="primary"
+      >
+        SELECT
+      </Button>
+    </section>
+  </Card>
+</div>
+`;
