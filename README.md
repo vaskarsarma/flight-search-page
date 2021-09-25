@@ -21,7 +21,7 @@ Please use this GITPAGE URL - https://vaskarsarma.github.io/flightsearchpage/
 
 You can run the application in your lacal machine using one of the mentioned approaches.
 
-> **docker**
+> **docker**\
 > **npm script**
 
 
