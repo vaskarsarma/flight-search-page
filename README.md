@@ -19,17 +19,19 @@ Please use this GITPAGE URL - https://vaskarsarma.github.io/flightsearchpage/
 
 ## Setup the application 
 
-You can run the application in your lacal machine using one of the mentioned approaches.
+You can run the application from your local machine using one of the mentioned approaches.
 
 > **docker**\
 > **npm script**
 
 
-### Run the application using DOCKER
+## **OPTION 1:** Run the application using DOCKER
 
 If Docker is available on your local machine, you can host the application within a Docker Container.
 
-Run the below command in any CLI
+> Open a CLI\
+> Navigate to application folder\
+> Run the below command
 
 ### `docker-compose up`
 
@@ -38,13 +40,25 @@ Open [http://localhost:3000](http://localhost:3000) to view the page in the brow
 
 In case container already exists and stopped. Use the below command to start the application.
 
-> Start stopped container - **docker start flight-search-page**.\
-> Delete stopped container - **docker rm flight-search-page** and run **docker-compose up** to re-start the application.\
+> Start the stopped container - **docker start flight-search-page**.
+
+In case for any issue :
+
+> Delete the container - **docker rm flight-search-page** and\
+> Run **docker-compose up** to re-start the application.
+
+You can delete the docker image using below command : 
+
 > Delete existing docker image - **docker rmi vaskar/flight-search-page**.
 
-## Run the application using npm scripts
+## **OPTION 2:** Run the application using npm scripts
 
 In the project directory, you can run below script on any CLI:
+
+> node js v14+ must be installed in the system\
+> Open a CLI\
+> Navigate to application folder\
+> Run the below command
 
 ### `npm i`
 
