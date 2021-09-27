@@ -40,7 +40,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the page in the brow
 
 In case container already exists and stopped. Use the below command to start the application.
 
-> Start the stopped container - **docker start flight-search-page**.
+> Start the stopped container - **docker start flight-search-page**
 
 In case for any issue :
 
@@ -49,7 +49,7 @@ In case for any issue :
 
 You can delete the docker image using below command : 
 
-> Delete existing docker image - **docker rmi vaskar/flight-search-page**.
+> Delete existing docker image - **docker rmi vaskar/flight-search-page**
 
 ## **OPTION 2:** Run the application using npm scripts
 
